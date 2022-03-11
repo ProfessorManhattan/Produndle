@@ -47,12 +47,18 @@ homepage = "https://megabyte.space"
 include = ["docs/CHANGELOG.md", "LICENSE"]
 keywords = [
   "automation",
+  "bin",
   "cli",
+  "commander",
+  "cosmicconfig",
   "go",
   "go-lang",
   "golang",
+  "inquirer",
+  "manpage",
   "mblabs",
   "megabytelabs",
+  "nestjs",
   "professormanhattan",
   "terminal",
   "washingtondc"

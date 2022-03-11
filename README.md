@@ -67,6 +67,7 @@
 - [Usage](#usage)
 - [Optimization](#optimization)
 - [Advanced Usage](#advanced-usage)
+- [Performance](#performance)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -154,6 +155,12 @@ produndle unpack eslint
 ```
 
 For the above snippet to work, you would have to have the compressed `eslint.tgz` file stored in `.modules/eslint.tgz`.
+
+<a href="#performance" style="width:100%"><img style="width:100%" src="https://gitlab.com/megabyte-labs/assets/-/raw/master/png/aqua-divider.png" /></a>
+
+## Performance
+
+For even more performance, consider using [`pnpm`](https://pnpm.io/). Although we use `pnpm` normally, we actually use `npm` for building the `node_modules/` folder that **Produndle** compresses. You can get a better idea of how we implement Produndle by checking out this [Taskfile.yml](https://github.com/ProfessorManhattan/Produndle/tree/master/.config/taskfiles/npm/Taskfile-bundle.yml) which is powered by our custom task-runner called [Bodega](https://github.com/ProfessorManhattan/Bodega).
 
 <a href="#contributing" style="width:100%"><img style="width:100%" src="https://gitlab.com/megabyte-labs/assets/-/raw/master/png/aqua-divider.png" /></a>
 
